@@ -1,0 +1,20 @@
+.red{
+    font-weight: bold;
+    color: blueviolet;
+}
+.green
+{
+  font-size: 29px;  
+}
+#div1
+{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h2,ul
+{
+    color: crimson;
+}
+ul>li{
+    font-weight: bold;
+}

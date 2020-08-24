@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tilte>Sign up form</tilte>
+    </head>
+    <body>
+        <form>
+            <input type="text" name="first name"placeholder="First Name"/>
+            <input type="text" name="surname" placeholder="Surname"/>
+            <br>
+            <input type="text" name="username" placeholder=""/>
+            <br>
+            <input type="password" name="password" placeholder="Password"/>
+            <br>
+            Date of Birth<br>
+            <select name="Day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <select name="Month">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="April">Apr</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+            </select>
+            <select name="Year" >
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+            </select>
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" value="male"/>
+            <input type="radio" name="gender" value="female"/>
+            <input type="radio" name="gender" value="custom"/>
+            <input name="country" list="country">
+            <datalist id="countries">
+                <option value="India"></option>
+            </datalist>
+            Birthday:
+            <input type="date" name="bdate"required/>
+            Sports:<br>
+            <input type="checkbox" name="Sports" value="badminton">badminton
+            <input type="checkbox" name="Sports" value="football">football
+            <br>
+            <br>
+            <textarea rows="5" col="20"></textarea>
+
+            <button type="button">Sign up  </button>
+        </form>
+    </body>
+</html>

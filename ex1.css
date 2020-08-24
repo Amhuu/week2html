@@ -1,0 +1,22 @@
+@font-face
+.red
+{
+    font-family: Cairo;
+    color: red;
+}
+h1{
+    color: blue;
+}
+h2{
+
+    color: blue;
+}
+#div
+{
+    background-color: rgb(93, 143, 218);
+}
+ul>li{
+    color: black;
+}
+body{
+font-family: 'Cairo', sans-serif;}
